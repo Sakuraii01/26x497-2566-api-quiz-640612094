@@ -10,8 +10,8 @@ export type MeGetResponse = {
 export const GET = async () => {
   //1. write your name & id
   return NextResponse.json<MeGetResponse>({
-    studentId: "650610560",
-    firstName: "Chayanin",
-    lastName: "Suatap",
+    studentId: "640612094",
+    firstName: "Pearl",
+    lastName: "Kurokami",
   });
 };
